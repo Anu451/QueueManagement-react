@@ -24,8 +24,8 @@ function App() {
 	return (
 		<div className="bg-gray-900 w-screen h-screen text-white">
 			<div className=" text-center pt-10">
-				<h1 className=" text-5xl mb-4">Queue Management</h1>
-				<h6 className="text-xl"> Welcome to Queue Management system</h6>
+				<h1 className=" text-5xl mb-4">Queue Management </h1>
+				<h6 className="text-xl"> Welcome to Queue Management system </h6>
 			</div>
 			<main className=" p-10 flex justify-center items-top gap-4">
 				<Form onAdd={addToQueue} />
